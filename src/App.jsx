@@ -199,22 +199,11 @@ const App = () => {
                       </ul>
                     </li>
                     <li>
-                      <div
-                        class="business_growth_content"
-                        style={{
-                          backgroundImage:
-                            "url('assets/images/hero/it_solution_hero_image_2.webp')",
-                        }}
-                      >
-                        <div class="progress_content">
-                          <div
-                            class="business_growth"
-                            data-pie='{ "percent": 88 }'
-                          ></div>
-                          <p>
-                            get 90% of the best services and growth business
-                          </p>
-                        </div>
+                      <div>
+                        <img
+                          src="assets/images/hero/it_solution_hero_image_2.webp"
+                          style={{ height: "368px" }}
+                        />
                       </div>
                     </li>
                   </ul>
