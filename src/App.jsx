@@ -4,20 +4,6 @@ const App = () => {
   return (
     <div>
       <div class="page_wrapper">
-        <div id="preloader" class="preloader">
-          <div class="loader-circle">
-            <div class="loader-line-mask">
-              <div class="loader-line"></div>
-            </div>
-            <div class="loader-logo">
-              <img
-                src="assets/images/site_logo/site_logo_2.png"
-                alt="Site Logo – Echo – IT Solutions &amp; Technology Site Template"
-              />
-            </div>
-          </div>
-        </div>
-
         <div class="backtotop">
           <a href="#" class="scroll">
             <i class="fa-solid fa-arrow-up"></i>
