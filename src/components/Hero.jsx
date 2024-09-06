@@ -58,7 +58,12 @@ const Hero = () => {
             </div>
             <div className="col-lg-5">
               <ul className="it_solution_hero_images unordered_list">
-                <li style={{ width: "100%" }}>
+                <li
+                  style={{
+                    width: "100%",
+                    marginBottom: "12px",
+                  }}
+                >
                   <div className="worldwide_clients">
                     <div className="counter_value">20+</div>
                     <p>Worldwide Country has lots of clients</p>
@@ -85,7 +90,7 @@ const Hero = () => {
                     </ul>
                   </div>
                 </li>
-                <li style={{ width: "100%" }}>
+                <li style={{ width: "100%", borderRadius: "20px" }}>
                   <ul className="categories unordered_list_block">
                     <li>
                       <a href="#!">

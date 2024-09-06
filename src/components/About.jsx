@@ -32,10 +32,10 @@ const About = () => {
         </div>
 
         <div className="container py-5">
-          <div className="row">
-            <div className="col-lg-4">
+          <div className="history_container">
+            <div>
               <div className="iconbox_block bg-light">
-                <div className="iconbox_icon">
+                <div className="iconbox_icon bg-warning-subtle">
                   <img
                     src="assets/images/icons/icon_clock.svg"
                     alt="Clock SVG Icon"
@@ -43,18 +43,15 @@ const About = () => {
                 </div>
                 <div className="iconbox_content">
                   <h3 className="iconbox_title">Our History</h3>
-                  <p className="mb-0">
+                  <p className="mb-0 ">
                     Since 2020 we have been a visionary and a reliable software
                     engineering partner for world-class brands.
                   </p>
-                  <p style={{ visibility: "hidden" }}>
-                    that drive growth, enhance efficiency, and foster success in
-                    the digital
-                  </p>
+                  <p className="mb-20 visibility-hidden">Hidden </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div>
               <div className="iconbox_block bg-light">
                 <div className="iconbox_icon bg-warning-subtle">
                   <img
@@ -73,7 +70,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div>
               <div className="iconbox_block bg-light">
                 <div className="iconbox_icon bg-secondary-subtle">
                   <img

@@ -25,7 +25,7 @@ const Commitment = () => {
               </div>
             </div>
             <div className="col-lg-5">
-              <div className="about_content">
+              <div className="about_content mt-80">
                 <div className="heading_block">
                   <div className="heading_focus_text">
                     We are 😃

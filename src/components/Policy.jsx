@@ -3,7 +3,8 @@ import React from "react";
 const Policy = () => {
   return (
     <>
-      <section className="policy_section">
+      <hr className="bg-main" />
+      <section className="policy_section mt-80">
         <div className="container">
           <div className="row">
             <div className="col-lg-4">

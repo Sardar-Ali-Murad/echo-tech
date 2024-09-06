@@ -5,46 +5,6 @@ const Contact = () => {
     <>
       <section className="contact_section section_space bg-light" id="contact">
         <div className="container">
-          <div className="heading_block text-center">
-            <h2 className="heading_text mb-0">Contact Us</h2>
-            <div className="heading_focus_text">
-              <span className="badge bg-secondary text-white">Today</span>
-            </div>
-          </div>
-          <div className="contact_info_box row">
-            <div className="col-lg-3 col-md-6 col-sm-6"></div>
-            <div className="col-lg-3 col-md-6 col-sm-6">
-              <div className="iconbox_block text-center">
-                <div className="iconbox_icon">
-                  <img
-                    src="assets/images/icons/icon_calling_2.svg"
-                    alt="Calling SVG Icon"
-                  />
-                </div>
-                <div className="iconbox_content">
-                  <h3 className="iconbox_title">Contact</h3>
-                  <p className="mb-0">+49 176 70512348</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-md-6 col-sm-6">
-              <div className="iconbox_block text-center">
-                <div className="iconbox_icon">
-                  <img
-                    src="assets/images/icons/icon_mail_3.svg"
-                    alt="User Check SVG Icon"
-                  />
-                </div>
-                <div className="iconbox_content">
-                  <h3 className="iconbox_title">Email</h3>
-                  <p className="mb-0">info@echotechnologies.co</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 col-sm-6"></div>
-          </div>
-
           <div className="section_space pb-0">
             <div className="row justify-content-lg-between">
               <div className="col-lg-7">

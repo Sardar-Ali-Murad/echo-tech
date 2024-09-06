@@ -83,37 +83,46 @@ const Footer = () => {
                       <li>
                         <a href="#!">
                           <span className="icon_list_text">
-                            IT Consultation
+                            Web App Developement
                           </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#!">
-                          <span className="icon_list_text">Cloud Services</span>
                         </a>
                       </li>
                       <li>
                         <a href="#!">
                           <span className="icon_list_text">
-                            AI Machine Learning
+                            Mobile App Development
                           </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#!">
+                          <span className="icon_list_text">
+                            Custom Software Development
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#!">
+                          <span className="icon_list_text">
+                            Digital Marketing
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#!">
+                          <span className="icon_list_text">
+                            Analytics & Optamization
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#!">
+                          <span className="icon_list_text">UI/UX</span>
                         </a>
                       </li>
                       <li>
                         <a href="#!">
                           <span className="icon_list_text">Data Security</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#!">
-                          <span className="icon_list_text">
-                            Software Development
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#!">
-                          <span className="icon_list_text">Cyber Security</span>
                         </a>
                       </li>
                     </ul>
@@ -138,13 +147,6 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="footer_bottom">
-          <div className="container d-md-flex align-items-md-center justify-content-md-between">
-            <p className="copyright_text m-0">
-              Copyright © 2024 Echo, All rights reserved.
-            </p>
           </div>
         </div>
       </footer>

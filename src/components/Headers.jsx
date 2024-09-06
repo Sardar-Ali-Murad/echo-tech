@@ -3,15 +3,7 @@ import React from "react";
 const Headers = () => {
   return (
     <>
-      <div className="backtotop">
-        <a href="#" className="scroll">
-          <i className="fa-solid fa-arrow-up"></i>
-        </a>
-      </div>
-      <header className="site_header site_header_1">
-        <div className="header_top text-center">
-          <div className="container"></div>
-        </div>
+      <header className="site_header site_header_1 main_header">
         <div className="header_bottom stricky">
           <div className="container px-5">
             <div className="row align-items-center">
