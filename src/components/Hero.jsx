@@ -65,8 +65,8 @@ const Hero = () => {
                   }}
                 >
                   <div className="worldwide_clients">
-                    <div className="counter_value">20+</div>
-                    <p>Worldwide Country has lots of clients</p>
+                    <div className="counter_value">30+</div>
+                    <p>Worldwide Country clients</p>
                     <ul className="avatar_group unordered_list">
                       <li>
                         <img
@@ -86,7 +86,7 @@ const Hero = () => {
                           alt="Echo - Avatar Image"
                         />
                       </li>
-                      <li>5k+</li>
+                      <li>20+</li>
                     </ul>
                   </div>
                 </li>

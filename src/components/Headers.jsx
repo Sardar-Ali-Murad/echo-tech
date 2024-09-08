@@ -44,7 +44,7 @@ const Headers = () => {
                 <ul className="header_btns_group unordered_list justify-content-end">
                   <li>
                     <button
-                      className="mobile_menu_btn"
+                      className="mobile_menu_btn visibility-hidden"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#main_menu_dropdown"

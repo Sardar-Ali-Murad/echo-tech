@@ -2193,7 +2193,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 @media screen and (max-width: 991px) {
   .site_header_1 .header_bottom {
-    padding: 35px 0;
+    padding: 1px 0;
   }
 }
 .site_header_1 .header_bottom .main_menu {
@@ -6216,7 +6216,7 @@ Responsive For Mobile & Tablet Devices
 ================================================== */
 @media screen and (max-width: 991px) {
   .site_header .header_btns_group > li:first-child {
-    display: inline-block;
+    /* display: inline-block; */
   }
 
   .main_menu_list .dropdown-menu {
@@ -6482,8 +6482,8 @@ Responsive For Mobile & Tablet Devices
 /* Media Screen 767px - Start
 ================================================== */
 @media screen and (max-width: 767px) {
-  .site_header .header_btns_group > li:last-child {
-    display: none;
+  .site_header .header_btns_group > li:last-child .btn_icon {
+    display: none !important;
   }
 
   .site_header .site_logo .badge {

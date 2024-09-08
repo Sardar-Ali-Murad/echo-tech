@@ -20,6 +20,9 @@ const About = () => {
                 <img src="assets/images/projects/9.PNG" alt="" />
                 <img src="assets/images/projects/10.PNG" alt="" />
                 <img src="assets/images/projects/7.png" alt="" />
+                <img src="assets/images/projects/11.png" alt="" />
+                <img src="assets/images/projects/12.PNG" alt="" />
+                <img src="assets/images/projects/13.PNG" alt="" />
               </div>
             </div>
           </div>
@@ -40,28 +43,16 @@ const About = () => {
               </a>
             </div>
             <div className="services_page_home">
-              <div className="box-container">
-                <div className="box">
-                  <h3>Treatfair</h3>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s,
-                  </p>
-                  <div class="chip">
-                    <a href="https://www.treatfair.org" target="_blank">
-                      www.treatfair.org
-                    </a>
-                  </div>
-                </div>
-
+              <div className="box-container grid-22">
                 <div className="box">
                   <h3>Traaak</h3>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s,
+                    Traaak is a CRM platform designed for B2B companies,
+                    focusing on task and document management. It helps clients
+                    track customer activities, stay organized, and ensure that
+                    important tasks are never missed.
                   </p>
+                  <p></p>
                   <div class="chip">
                     <a href="https://www.traaak.com" target="_blank">
                       www.traaak.com
@@ -72,9 +63,27 @@ const About = () => {
                 <div className="box">
                   <h3>Abilite</h3>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s,
+                    Ability is Pakistan’s 1st internal audit software. Abilite
+                    empowers Internal Auditors to focus on critical areas.
+                    Abilite empowers Internal Auditors to focus on critical
+                    areas and drive organizational success through streamlined &
+                    industry-focused auditing processes.
+                  </p>
+                  <div class="chip">
+                    <a href="https://abilite.co" target="_blank">
+                      abilite.co
+                    </a>
+                  </div>
+                </div>
+
+                <div className="box">
+                  <h3>Go Fatoorah</h3>
+                  <p>
+                    Go Fatoorah offers a comprehensive e-invoicing solution . It
+                    ensures invoices are generated in XML format, archived as
+                    required, and include QR codes and cryptographic stamps. It
+                    supports real-time clearance and supports multilingual
+                    formats, including Arabic and Hindi numerals
                   </p>
                   <div class="chip">
                     <a
@@ -85,17 +94,18 @@ const About = () => {
                     </a>
                   </div>
                 </div>
-
                 <div className="box">
-                  <h3>E-Envoices</h3>
+                  <h3>Treatfair</h3>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s,
+                    Treatfair is a comprehensive German website dedicated to
+                    connecting doctors with job opportunities across Germany. It
+                    features an extensive listing of clinics and medical
+                    facilities, along with up-to-date news and information on
+                    recent advancements in medicine within the country.
                   </p>
                   <div class="chip">
-                    <a href="https://abilite.co" target="_blank">
-                      abilite.co
+                    <a href="https://www.treatfair.org" target="_blank">
+                      www.treatfair.org
                     </a>
                   </div>
                 </div>

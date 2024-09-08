@@ -32,61 +32,53 @@ const About = () => {
         </div>
 
         <div className="container py-5">
-          <div className="history_container">
-            <div>
-              <div className="iconbox_block bg-light">
-                <div className="iconbox_icon bg-warning-subtle">
-                  <img
-                    src="assets/images/icons/icon_clock.svg"
-                    alt="Clock SVG Icon"
-                  />
-                </div>
-                <div className="iconbox_content">
-                  <h3 className="iconbox_title">Our History</h3>
-                  <p className="mb-0 ">
-                    Since 2020 we have been a visionary and a reliable software
-                    engineering partner for world-class brands.
-                  </p>
-                  <p className="mb-20 visibility-hidden">Hidden </p>
-                </div>
+          <div className="grid-22">
+            <div className="iconbox_block bg-light">
+              <div className="iconbox_icon bg-warning-subtle">
+                <img
+                  src="assets/images/icons/icon_clock.svg"
+                  alt="Clock SVG Icon"
+                />
+              </div>
+              <div className="">
+                <h3 className="iconbox_title">Our History</h3>
+                <p className="mb-0 ">
+                  Since 2020 we have been a visionary and a reliable software
+                  engineering partner for world-class brands.
+                </p>
               </div>
             </div>
-            <div>
-              <div className="iconbox_block bg-light">
-                <div className="iconbox_icon bg-warning-subtle">
-                  <img
-                    src="assets/images/icons/icon_dart_board_2.svg"
-                    alt="Dart Board SVG Icon"
-                  />
-                </div>
-                <div className="iconbox_content">
-                  <h3 className="iconbox_title">Our Mission</h3>
-                  <p className="mb-0">
-                    At Echo Technologies, our mission is to empower businesses
-                    with innovative, reliable, and tailored tech solutions that
-                    drive growth, enhance efficiency, and foster success in the
-                    digital landscape.
-                  </p>
-                </div>
+            <div className="iconbox_block bg-light">
+              <div className="iconbox_icon bg-warning-subtle">
+                <img
+                  src="assets/images/icons/icon_dart_board_2.svg"
+                  alt="Dart Board SVG Icon"
+                />
+              </div>
+              <div className="">
+                <h3 className="iconbox_title">Our Mission</h3>
+                <p className="mb-0">
+                  At Echo Technologies, our mission is to empower businesses
+                  with innovative, reliable, and tailored tech solutions that
+                  drive growth, enhance efficiency, and foster success in the
+                  digital landscape.
+                </p>
               </div>
             </div>
-            <div>
-              <div className="iconbox_block bg-light">
-                <div className="iconbox_icon bg-secondary-subtle">
-                  <img
-                    src="assets/images/icons/icon_target.svg"
-                    alt="Target SVG Icon"
-                  />
-                </div>
-                <div className="iconbox_content">
-                  <h3 className="iconbox_title">Our Vision</h3>
-                  <p className="mb-0">
-                    To be a global leader in technology solutions, recognized
-                    for our innovation, excellence, and commitment to empowering
-                    businesses to thrive in the digital age.
-                  </p>
-                  <p style={{ visibility: "hidden", margin: "0px" }}>that</p>
-                </div>
+            <div className="iconbox_block bg-light">
+              <div className="iconbox_icon bg-secondary-subtle">
+                <img
+                  src="assets/images/icons/icon_target.svg"
+                  alt="Target SVG Icon"
+                />
+              </div>
+              <div className="">
+                <h3 className="iconbox_title">Our Vision</h3>
+                <p className="mb-0">
+                  To be a global leader in technology solutions, recognized for
+                  our innovation, excellence, and commitment to empowering
+                  businesses to thrive in the digital age.
+                </p>
               </div>
             </div>
           </div>
