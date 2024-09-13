@@ -11,8 +11,8 @@ const Headers = () => {
                 <div className="site_lo">
                   <a className="site_link">
                     <img
-                      className="h-140"
-                      src="assets/images/site_logo/logo.png"
+                      className="h-70"
+                      src="assets/images/site_logo/favourite_icon_2.png"
                       alt="Site Logo – Echo – IT Solutions & Technology, Business Consulting, Software Company Site Template"
                     />
                   </a>

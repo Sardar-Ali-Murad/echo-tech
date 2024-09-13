@@ -10,6 +10,10 @@
   height: 140px !important;
 }
 
+.h-70 {
+  height: 70px !important;
+}
+
 .cursor-text {
   cursor: text !important;
 }
@@ -47,6 +51,13 @@
   color: #007bff;
 }
 
+.site_header_1 .header_bottom {
+  height: 110px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .slick-dots li.slick-active button:before {
   color: #00ff00;
 }
@@ -54,5 +65,11 @@
 @media screen and (max-width: 800px) {
   .h-140 {
     height: 40px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .site_header_1 .header_bottom {
+    height: 100px !important;
+    padding-top: 17px !important;
   }
 }

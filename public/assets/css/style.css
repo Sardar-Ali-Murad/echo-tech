@@ -5583,7 +5583,6 @@ body.index_business_consulting .backtotop {
   border-radius: var(--bs-border-radius);
 }
 
-
 @media screen and (max-width: 1560px) {
   .main_menu_list {
     gap: 20px;
