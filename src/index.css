@@ -1,7 +1,15 @@
-.visibility-hidden{
-    visibility: hidden !important;
+.visibility-hidden {
+  visibility: hidden !important;
 }
 
-.color-light{
-    color: #e3f0ff;
+.color-light {
+  color: #e3f0ff;
+}
+
+.h-140{
+    height: 140px !important;
+}
+
+.cursor-text{
+  cursor: text !important;
 }

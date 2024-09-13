@@ -26,93 +26,67 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="content">
-            <div>
-              <h3>We will provide you the best work which you dreamt for!</h3>
-              <p>
-                Our dedicated team ensures top-quality results, transforming
-                your ideas into reality with unmatched professionalism and care.
-              </p>
-              <a className="btn main-bg" href="#contact">
-                <span className="btn_label" data-text="Get Started">
-                  Get Started
-                </span>
-                <span className="btn_icon">
-                  <i className="fa-solid fa-arrow-up-right"></i>
-                </span>
-              </a>
-            </div>
-            <div className="services_page_home">
-              <div className="box-container grid-22">
-                <div className="box">
-                  <h3>Traaak</h3>
-                  <p>
-                    Traaak is a CRM platform designed for B2B companies,
-                    focusing on task and document management. It helps clients
-                    track customer activities, stay organized, and ensure that
-                    important tasks are never missed.
-                  </p>
-                  <p></p>
-                  <div class="chip">
-                    <a href="https://www.traaak.com" target="_blank">
-                      www.traaak.com
-                    </a>
-                  </div>
+        </div>
+      </section>
+      <section className="about section">
+        <div className="content">
+          <div className="services_page_home">
+            <div className="box-container grid-40">
+              <div className="box">
+                <h3>Traaak</h3>
+                <p>
+                  Traaak is a CRM platform designed for B2B companies, focusing
+                  on task and document management. It helps clients track
+                  customer activities, stay organized, and ensure that important
+                  tasks are never missed.
+                </p>
+                <p></p>
+                <div class="chip">
+                  <a href="https://www.traaak.com" target="_blank">
+                    www.traaak.com
+                  </a>
                 </div>
+              </div>
 
-                <div className="box">
-                  <h3> E-Invoicing Solution</h3>
-                  <p>
-                    It offers a comprehensive e-invoicing solution . It
-                    ensures invoices are generated in XML format, archived as
-                    required, and include QR codes and cryptographic stamps. It
-                    supports real-time clearance and supports multilingual
-                    formats, including Arabic and Hindi numerals
-                  </p>
-                  <div class="chip">
-                    <a
-                      href="https://gofatoorah.azurewebsites.net"
-                      target="_blank"
-                    >
-                      gofatoorah.azurewebsites.net
-                    </a>
-                  </div>
+              <div className="box">
+                <h3> E-Invoicing Solution</h3>
+                <p>
+                  It offers a comprehensive e-invoicing solution . It ensures
+                  invoices are generated in XML format, archived as required,
+                  and include QR codes and cryptographic stamps. It supports
+                  real-time clearance and supports multilingual formats,
+                  including Arabic and Hindi numerals
+                </p>
+                <div class="chip">
+                  <a
+                    href="https://gofatoorah.azurewebsites.net"
+                    target="_blank"
+                  >
+                    gofatoorah.azurewebsites.net
+                  </a>
                 </div>
-                <div className="box">
-                  <h3>Treatfair</h3>
-                  <p>
-                    Treatfair is a comprehensive German website dedicated to
-                    connecting doctors with job opportunities across Germany. It
-                    features an extensive listing of clinics and medical
-                    facilities, along with up-to-date news and information on
-                    recent advancements in medicine within the country.
-                  </p>
-                  <div class="chip">
-                    <a href="https://www.treatfair.org" target="_blank">
-                      www.treatfair.org
-                    </a>
-                  </div>
+              </div>
+              <div className="box">
+                <h3>Treatfair</h3>
+                <p>
+                  Treatfair is a comprehensive German website dedicated to
+                  connecting doctors with job opportunities across Germany. It
+                  features an extensive listing of clinics and medical
+                  facilities, along with up-to-date news and information on
+                  recent advancements in medicine within the country.
+                </p>
+                <div class="chip">
+                  <a href="https://www.treatfair.org" target="_blank">
+                    www.treatfair.org
+                  </a>
                 </div>
-                {/* <div className="box visibility-hidden">
-                  <h3>Abilite</h3>
-                  <p>
-                    Ability is Pakistan’s 1st internal audit software. Abilite
-                    empowers Internal Auditors to focus on critical areas.
-                    Abilite empowers Internal Auditors to focus on critical
-                    areas and drive organizational success through streamlined &
-                    industry-focused auditing processes.
-                  </p>
-                  <div class="chip">
-                    <a href="https://abilite.co" target="_blank">
-                      abilite.co
-                    </a>
-                  </div>
-                </div> */}
               </div>
             </div>
           </div>
         </div>
+      </section>
 
+      <section className="about section" id="about">
         <div className="box-container">
           <div className="box">
             <h3>4+</h3>

@@ -8,9 +8,10 @@ const Headers = () => {
           <div className="container px-5">
             <div className="row align-items-center">
               <div className="col-xl-3 col-lg-2 col-5">
-                <div className="site_logo">
+                <div className="site_lo">
                   <a className="site_link">
                     <img
+                      className="h-140"
                       src="assets/images/site_logo/logo.png"
                       alt="Site Logo – Echo – IT Solutions & Technology, Business Consulting, Software Company Site Template"
                     />

@@ -73,43 +73,43 @@ const Hero = () => {
                     style={{ height: "100%" }}
                   >
                     <li>
-                      <a href="/">
+                      <a href="/" className="cursor-text">
                         <span>Web App Development</span>
                         <i className="fa-solid fa-plus"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="/">
+                      <a href="/" className="cursor-text">
                         <i className="fa-solid fa-plus"></i>
                         <span>Mobile App Developement</span>
                       </a>
                     </li>
                     <li>
-                      <a href="/">
+                      <a href="/" className="cursor-text">
                         <span>Custom Software Development</span>
                         <i className="fa-solid fa-plus"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="/">
+                      <a href="/" className="cursor-text">
                         <span>Digital Marketing</span>
                         <i className="fa-solid fa-plus"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="/">
+                      <a href="/" className="cursor-text">
                         <span>Analytics & Optamization</span>
                         <i className="fa-solid fa-plus"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="/">
+                      <a href="/" className="cursor-text">
                         <span>UI/UX</span>
                         <i className="fa-solid fa-plus"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="/">
+                      <a href="/" className="cursor-text">
                         <span>Data Security</span>
                         <i className="fa-solid fa-plus"></i>
                       </a>

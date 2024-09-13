@@ -385,6 +385,11 @@ html[dir="rtl"] .pe-3 {
   grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
   gap: 2rem;
 }
+.grid-40 {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr)) !important;
+  gap: 2rem !important;
+}
 
 @media (max-width: 1200px) {
   section {
