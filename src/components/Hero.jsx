@@ -6,7 +6,7 @@ const Hero = () => {
       <section className="it_solution_hero_section">
         <div className="container">
           <div className="row">
-            <div className="col-lg-7">
+            <div className="col-lg-12">
               <div
                 className="it_solution_hero_content"
                 style={{
@@ -55,68 +55,6 @@ const Hero = () => {
                   </li>
                 </ul>
               </div>
-            </div>
-            <div className="col-lg-5">
-              <ul
-                className="it_solution_hero_images unordered_list"
-                style={{ height: "100%" }}
-              >
-                <li
-                  style={{
-                    width: "100%",
-                    borderRadius: "20px",
-                    height: "100%",
-                  }}
-                >
-                  <ul
-                    className="categories unordered_list_block"
-                    style={{ height: "100%" }}
-                  >
-                    <li>
-                      <a href="/" className="cursor-text">
-                        <span>Web App Development</span>
-                        <i className="fa-solid fa-plus"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="cursor-text">
-                        <i className="fa-solid fa-plus"></i>
-                        <span>Mobile App Developement</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="cursor-text">
-                        <span>Custom Software Development</span>
-                        <i className="fa-solid fa-plus"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="cursor-text">
-                        <span>Digital Marketing</span>
-                        <i className="fa-solid fa-plus"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="cursor-text">
-                        <span>Analytics & Optamization</span>
-                        <i className="fa-solid fa-plus"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="cursor-text">
-                        <span>UI/UX</span>
-                        <i className="fa-solid fa-plus"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="cursor-text">
-                        <span>Data Security</span>
-                        <i className="fa-solid fa-plus"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
             </div>
           </div>
         </div>

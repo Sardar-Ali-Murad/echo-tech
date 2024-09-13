@@ -356,6 +356,7 @@ html[dir="rtl"] .pe-3 {
 .grid_container .image-container img {
   margin-bottom: 10px;
   border-radius: 5px;
+  margin-right: 20px;
 }
 
 .chip {
@@ -389,6 +390,13 @@ html[dir="rtl"] .pe-3 {
   display: grid !important;
   grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr)) !important;
   gap: 2rem !important;
+}
+
+.slick-prev {
+  display: none !important;
+}
+.slick-next {
+  display: none !important;
 }
 
 @media (max-width: 1200px) {

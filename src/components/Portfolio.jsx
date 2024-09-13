@@ -1,7 +1,33 @@
 import React from "react";
 import "./index.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const About = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
   return (
     <div className="home_about_wrap main-bg">
       <section className="about section" id="about">
@@ -9,21 +35,32 @@ const About = () => {
         <div className="row">
           <div className="video">
             <div className="grid_container">
-              <div class="image-container">
-                {/* <img src="assets/images/projects/1.PNG" alt="" /> */}
-                {/* <img src="assets/images/projects/2.PNG" alt="" /> */}
-                {/* <img src="assets/images/projects/3.PNG" alt="" /> */}
-                <img src="assets/images/projects/4.PNG" alt="" />
-                <img src="assets/images/projects/5.PNG" alt="" />
-                <img src="assets/images/projects/6.png" alt="" />
-                <img src="assets/images/projects/8.png" alt="" />
-                <img src="assets/images/projects/9.PNG" alt="" />
-                <img src="assets/images/projects/10.PNG" alt="" />
-                <img src="assets/images/projects/7.png" alt="" />
-                <img src="assets/images/projects/11.png" alt="" />
-                {/* <img src="assets/images/projects/12.PNG" alt="" /> */}
-                {/* <img src="assets/images/projects/13.PNG" alt="" /> */}
-              </div>
+              <Slider {...settings}>
+                <div className="image-container">
+                  <img src="assets/images/projects/4.PNG" alt="Project 4" />
+                </div>
+                <div className="image-container">
+                  <img src="assets/images/projects/5.PNG" alt="Project 5" />
+                </div>
+                <div className="image-container">
+                  <img src="assets/images/projects/6.png" alt="Project 6" />
+                </div>
+                <div className="image-container">
+                  <img src="assets/images/projects/8.png" alt="Project 8" />
+                </div>
+                <div className="image-container">
+                  <img src="assets/images/projects/9.PNG" alt="Project 9" />
+                </div>
+                <div className="image-container">
+                  <img src="assets/images/projects/10.PNG" alt="Project 10" />
+                </div>
+                <div className="image-container">
+                  <img src="assets/images/projects/7.png" alt="Project 7" />
+                </div>
+                <div className="image-container">
+                  <img src="assets/images/projects/11.png" alt="Project 11" />
+                </div>
+              </Slider>
             </div>
           </div>
         </div>
