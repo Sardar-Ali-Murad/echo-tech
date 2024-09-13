@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
             <div className="footer_main_content">
               <div className="row justify-content-lg-between">
-                <div className="col-lg-3 col-md-6 col-sm-6">
+                {/* <div className="col-lg-3 col-md-6 col-sm-6 ">
                   <div className="footer_widget pe-md-3">
                     <h2 className="footer_info_title">Newsletter</h2>
                     <p>
@@ -75,55 +75,45 @@ const Footer = () => {
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   <div className="footer_widget">
                     <h3 className="footer_info_title">Services</h3>
                     <ul className="icon_list unordered_list_block">
                       <li>
-                        <a href="#!">
-                          <span className="icon_list_text">
-                            Web App Developement
-                          </span>
-                        </a>
+                        <span className="icon_list_text color-light">
+                          Web App Development
+                        </span>
                       </li>
                       <li>
-                        <a href="#!">
-                          <span className="icon_list_text">
-                            Mobile App Development
-                          </span>
-                        </a>
+                        <span className="icon_list_text color-light">
+                          Mobile App Development
+                        </span>
                       </li>
                       <li>
-                        <a href="#!">
-                          <span className="icon_list_text">
-                            Custom Software Development
-                          </span>
-                        </a>
+                        <span className="icon_list_text color-light">
+                          Custom Software Development
+                        </span>
                       </li>
                       <li>
-                        <a href="#!">
-                          <span className="icon_list_text">
-                            Digital Marketing
-                          </span>
-                        </a>
+                        <span className="icon_list_text color-light">
+                          Digital Marketing
+                        </span>
                       </li>
                       <li>
-                        <a href="#!">
-                          <span className="icon_list_text">
-                            Analytics & Optamization
-                          </span>
-                        </a>
+                        <span className="icon_list_text color-light">
+                          Analytics & Optimization
+                        </span>
                       </li>
                       <li>
-                        <a href="#!">
-                          <span className="icon_list_text">UI/UX</span>
-                        </a>
+                        <span className="icon_list_text color-light">
+                          UI/UX
+                        </span>
                       </li>
                       <li>
-                        <a href="#!">
-                          <span className="icon_list_text">Data Security</span>
-                        </a>
+                        <span className="icon_list_text color-light">
+                          Data Security
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -133,14 +123,14 @@ const Footer = () => {
                     <h3 className="footer_info_title">Information</h3>
                     <ul className="icon_list unordered_list_block">
                       <li>
-                        <a href="#about">
-                          <span className="icon_list_text">About Echo</span>
-                        </a>
+                        <span className="icon_list_text color-light">
+                          About Echo
+                        </span>
                       </li>
                       <li>
-                        <a href="#contact">
-                          <span className="icon_list_text">Contact</span>
-                        </a>
+                        <span className="icon_list_text color-light">
+                          Contact
+                        </span>
                       </li>
                     </ul>
                   </div>

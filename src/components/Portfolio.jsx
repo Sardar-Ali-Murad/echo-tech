@@ -10,9 +10,9 @@ const About = () => {
           <div className="video">
             <div className="grid_container">
               <div class="image-container">
-                <img src="assets/images/projects/1.PNG" alt="" />
-                <img src="assets/images/projects/2.PNG" alt="" />
-                <img src="assets/images/projects/3.PNG" alt="" />
+                {/* <img src="assets/images/projects/1.PNG" alt="" /> */}
+                {/* <img src="assets/images/projects/2.PNG" alt="" /> */}
+                {/* <img src="assets/images/projects/3.PNG" alt="" /> */}
                 <img src="assets/images/projects/4.PNG" alt="" />
                 <img src="assets/images/projects/5.PNG" alt="" />
                 <img src="assets/images/projects/6.png" alt="" />
@@ -21,8 +21,8 @@ const About = () => {
                 <img src="assets/images/projects/10.PNG" alt="" />
                 <img src="assets/images/projects/7.png" alt="" />
                 <img src="assets/images/projects/11.png" alt="" />
-                <img src="assets/images/projects/12.PNG" alt="" />
-                <img src="assets/images/projects/13.PNG" alt="" />
+                {/* <img src="assets/images/projects/12.PNG" alt="" /> */}
+                {/* <img src="assets/images/projects/13.PNG" alt="" /> */}
               </div>
             </div>
           </div>
@@ -61,25 +61,9 @@ const About = () => {
                 </div>
 
                 <div className="box">
-                  <h3>Abilite</h3>
+                  <h3> E-Invoicing Solution</h3>
                   <p>
-                    Ability is Pakistan’s 1st internal audit software. Abilite
-                    empowers Internal Auditors to focus on critical areas.
-                    Abilite empowers Internal Auditors to focus on critical
-                    areas and drive organizational success through streamlined &
-                    industry-focused auditing processes.
-                  </p>
-                  <div class="chip">
-                    <a href="https://abilite.co" target="_blank">
-                      abilite.co
-                    </a>
-                  </div>
-                </div>
-
-                <div className="box">
-                  <h3>Go Fatoorah</h3>
-                  <p>
-                    Go Fatoorah offers a comprehensive e-invoicing solution . It
+                    It offers a comprehensive e-invoicing solution . It
                     ensures invoices are generated in XML format, archived as
                     required, and include QR codes and cryptographic stamps. It
                     supports real-time clearance and supports multilingual
@@ -109,6 +93,21 @@ const About = () => {
                     </a>
                   </div>
                 </div>
+                {/* <div className="box visibility-hidden">
+                  <h3>Abilite</h3>
+                  <p>
+                    Ability is Pakistan’s 1st internal audit software. Abilite
+                    empowers Internal Auditors to focus on critical areas.
+                    Abilite empowers Internal Auditors to focus on critical
+                    areas and drive organizational success through streamlined &
+                    industry-focused auditing processes.
+                  </p>
+                  <div class="chip">
+                    <a href="https://abilite.co" target="_blank">
+                      abilite.co
+                    </a>
+                  </div>
+                </div> */}
               </div>
             </div>
           </div>

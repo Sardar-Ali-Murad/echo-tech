@@ -9,9 +9,9 @@ const Headers = () => {
             <div className="row align-items-center">
               <div className="col-xl-3 col-lg-2 col-5">
                 <div className="site_logo">
-                  <a className="site_link" href="index.html">
+                  <a className="site_link">
                     <img
-                      src="assets/images/site_logo/site_logo_3.png"
+                      src="assets/images/site_logo/logo.png"
                       alt="Site Logo – Echo – IT Solutions & Technology, Business Consulting, Software Company Site Template"
                     />
                   </a>

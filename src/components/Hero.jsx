@@ -57,79 +57,59 @@ const Hero = () => {
               </div>
             </div>
             <div className="col-lg-5">
-              <ul className="it_solution_hero_images unordered_list">
+              <ul
+                className="it_solution_hero_images unordered_list"
+                style={{ height: "100%" }}
+              >
                 <li
                   style={{
                     width: "100%",
-                    marginBottom: "12px",
+                    borderRadius: "20px",
+                    height: "100%",
                   }}
                 >
-                  <div className="worldwide_clients">
-                    <div className="counter_value">30+</div>
-                    <p>Worldwide Country clients</p>
-                    <ul className="avatar_group unordered_list">
-                      <li>
-                        <img
-                          src="assets/images/avatar/avatar_1.webp"
-                          alt="Echo - Avatar Image"
-                        />
-                      </li>
-                      <li>
-                        <img
-                          src="assets/images/avatar/avatar_2.webp"
-                          alt="Echo - Avatar Image"
-                        />
-                      </li>
-                      <li>
-                        <img
-                          src="assets/images/avatar/avatar_3.webp"
-                          alt="Echo - Avatar Image"
-                        />
-                      </li>
-                      <li>20+</li>
-                    </ul>
-                  </div>
-                </li>
-                <li style={{ width: "100%", borderRadius: "20px" }}>
-                  <ul className="categories unordered_list_block">
+                  <ul
+                    className="categories unordered_list_block"
+                    style={{ height: "100%" }}
+                  >
                     <li>
-                      <a href="#!">
+                      <a href="/">
                         <span>Web App Development</span>
                         <i className="fa-solid fa-plus"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#!">
+                      <a href="/">
                         <i className="fa-solid fa-plus"></i>
                         <span>Mobile App Developement</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#!">
+                      <a href="/">
                         <span>Custom Software Development</span>
                         <i className="fa-solid fa-plus"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#!">
+                      <a href="/">
                         <span>Digital Marketing</span>
                         <i className="fa-solid fa-plus"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#!">
+                      <a href="/">
                         <span>Analytics & Optamization</span>
                         <i className="fa-solid fa-plus"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#!">
+                      <a href="/">
                         <span>UI/UX</span>
                         <i className="fa-solid fa-plus"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#!">
+                      <a href="/">
                         <span>Data Security</span>
                         <i className="fa-solid fa-plus"></i>
                       </a>
