@@ -39,43 +39,21 @@ const Footer = () => {
             </div>
             <div className="footer_main_content">
               <div className="row justify-content-lg-between">
-                {/* <div className="col-lg-3 col-md-6 col-sm-6 ">
+                <div className="col-lg-3 col-md-6 col-sm-6 ">
                   <div className="footer_widget pe-md-3">
-                    <h2 className="footer_info_title">Newsletter</h2>
+                    <h2 className="footer_info_title">Get in Touch</h2>
                     <p>
-                      Sign up to Echo weekly newsletter to get the latest
-                      updates.
+                      Have any questions or inquiries? Click the link below to
+                      send us a message directly.
                     </p>
-                    <form className="footer_newslatter" action="#">
-                      <label for="footer_mail_input">
-                        <img
-                          src="assets/images/icons/icon_mail_2.svg"
-                          alt="Mail SVG Icon"
-                        />
-                      </label>
-                      <input
-                        id="footer_mail_input"
-                        type="email"
-                        name="email"
-                        placeholder="Enter your email"
-                      />
-                      <button type="submit">
-                        <i className="fa-solid fa-paper-plane"></i>
-                      </button>
-                    </form>
+
                     <ul className="social_links_block unordered_list">
                       <li>
-                        <a href="#!">Facebook</a>
-                      </li>
-                      <li>
-                        <a href="#!">Twitter</a>
-                      </li>
-                      <li>
-                        <a href="#!">Linkdin</a>
+                        <a href="mailto:afnanabid@gmail.com">Send A Message</a>
                       </li>
                     </ul>
                   </div>
-                </div> */}
+                </div>
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   <div className="footer_widget">
                     <h3 className="footer_info_title">Services</h3>
